@@ -28,18 +28,6 @@ export default function Navbar({openVoiceModal}:any) {
             />
           </Link>
 
-          {/* <div className="hidden md:flex items-center space-x-8">
-            <Link href="#services" className="text-emerald-900 hover:text-emerald-700 font-medium">
-              Services
-            </Link>
-            <Link href="#company" className="text-emerald-900 hover:text-emerald-700 font-medium">
-              Company
-            </Link>
-            <Link href="#blogs" className="text-emerald-900 hover:text-emerald-700 font-medium">
-              Blogs
-            </Link>
-          </div> */}
-
           <Button
             className="w-fit mt-8  bg-[#f59e0b] hover:bg-[#d97706] text-white animate-buttonheartbeat rounded-3xl p-6 text-lg"
             onClick={openVoiceModal}
