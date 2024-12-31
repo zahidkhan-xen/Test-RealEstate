@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import React, { useState, useEffect, FormEvent, ChangeEvent, MouseEvent } from "react";
-// import { AiOutlineClose } from "react-icons/ai";
 import toast from "react-hot-toast";
 import { Button } from "./ui/button";
 
@@ -79,7 +78,6 @@ const ReservationForm: React.FC<ReservationFormProps> = ({ isVoiceOpen, onClose 
           className="absolute right-4 top-4 p-2 hover:bg-gray-100 rounded-full transition-colors"
           aria-label="Close modal"
         >
-          {/* <AiOutlineClose className="w-5 h-5 text-gray-500" /> */}
         </button>
 
         <div className="p-8">
@@ -130,9 +128,7 @@ const ReservationForm: React.FC<ReservationFormProps> = ({ isVoiceOpen, onClose 
                 required
               />
             </div>
-
             <div className="flex items-center justify-center">
-
             <Button
               type="submit"
               className="mt-8  bg-[#f59e0b] hover:bg-[#d97706] text-white  rounded-3xl p-6 text-lg"
